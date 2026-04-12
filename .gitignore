@@ -1,9 +1,10 @@
 # Python
 __pycache__/
 venv/
+*.pyc
 .idea/
 
-# Security
-*.db
-*.bin
-secrets.json
+# Project specific (security)
+data/*.bin
+data/*.dat
+data/*.db
