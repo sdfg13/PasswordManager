@@ -29,8 +29,8 @@ Password Safe Pro — это десктопное приложение для у
 ## Установка и запуск
 1. Клонирование репозитория
 ```Bash
-git clone https://github.com/твой-логин/password_safe.git
-cd password_safe
+git clone https://github.com/sdfg13/PasswordManager.git
+cd PasswordManager
 ```
 2. Установка зависимостей
 ```Bash
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 3. Запуск приложения
 ```Bash
-python src/main_gui.py
+python src/main.py
 ```
 ## Безопасность и Git
 Файлы с данными (соль и зашифрованный сейф) хранятся в директории src/data/.
