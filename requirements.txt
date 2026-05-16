@@ -1,2 +1,4 @@
 cryptography==46.0.7
 PyQt5==5.15.11
+pytest
+pytest-cov
