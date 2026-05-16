@@ -1,7 +1,7 @@
 import json
 import os
 from dataclasses import dataclass, asdict
-from crypto import encrypt_data, decrypt_data
+from src.crypto import encrypt_data, decrypt_data
 
 
 @dataclass

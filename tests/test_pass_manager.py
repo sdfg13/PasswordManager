@@ -144,7 +144,6 @@ def test_vault_load_wrong_password_raises_value_error(tmp_path, monkeypatch):
     vault.save_to_file(filename, correct_key)
 
     # Act & Assert
-    # Твой код в vault.py перехватывает ошибку Fernet и кидает ValueError с понятным текстом
     new_vault = Vault()
     with pytest.raises(ValueError, match="Неверный мастер-пароль или поврежденные данные"):
         new_vault.load_from_file(filename, wrong_key)

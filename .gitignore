@@ -7,3 +7,5 @@ venv/
 # Project specific (security)
 src/data/*.bin
 src/data/*.dat
+
+.coverage
